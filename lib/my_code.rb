@@ -55,7 +55,7 @@ def reduce_to_all_true(array)
 return false if array.length == array.length
 i += 1 
 end 
-return true
+return false
 end 
 
 def reduce_to_any_true(array)
